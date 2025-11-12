@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeevanshaili — Building the Future of Human-Centric Healthcare</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode"> <div class="background-gradient"></div>
+
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="nav-logo-link">
+        <img src="/images/jeevanshaili-logo.png" alt="Jeevanshaili Logo" class="nav-logo">
+        <span>Jeevanshaili</span>
+      </a>
+      <div class="nav-menu">
+        <a href="#philosophy" class="nav-link">Vision</a>
+        <a href="#technology" class="nav-link">Technology</a>
+        <a href="#details" class="nav-link">Details</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle-btn">
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+
+    <header class="hero">
+      <h1 class="hero-title">Health is not a condition. <br> It's a signal.</h1>
+      <p class="hero-subtitle">Jeevanshaili is building the future of predictive, personalized, and emotionally intelligent healthcare.</p>
+      <div class="hero-actions">
+        <button id="showHospitalForm" class="btn btn-primary">
+          <span>Request Early Access</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+        <button id="showJoinForm" class="btn btn-secondary">
+          <span>Join the Initiative</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+      </div>
+    </header>
+
+    <section id="philosophy" class="content-section">
+      <div class="section-container philosophy-grid">
+        <div class="philosophy-main">
+          <h2 class="section-title">The Core Philosophy</h2>
+          <h3 class="section-subtitle">Health as a Living System</h3>
+          <p>At the heart of Jeevanshaili is a simple but radical belief: health is not a condition, it’s a signal. Your body, brain, and emotions are constantly communicating through electric impulses, chemical releases, and behavioral patterns.</p>
+          <p>Modern healthcare focuses on treating illness after it happens. Jeevanshaili’s mission is to read the body’s signals before symptoms manifest — to make healthcare predictive, personalized, and emotionally intelligent.</p>
+        </div>
+        <div class="philosophy-aside card">
+          <h4>Health is an Ecosystem</h4>
+          <p>The human body is a network of dynamic feedback loops. Stress can elevate heart rate, which influences sleep, which affects mood, which suppresses immune function.</p>
+          <p>Traditional healthcare fragments these elements. Jeevanshaili unifies them through AI, bio-sensing, and emotion-aware computation — treating health as an ecosystem, not a collection of parts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="technology" class="content-section">
+      <div class="section-container">
+        <h2 class="section-title">The Jeevanshaili Ecosystem</h2>
+        <div class="tabs-container">
+          <div class="tab-nav">
+            <button class="tab-link active" data-tab="tab-ai">Jeevanshaili AI</button>
+            <button class="tab-link" data-tab="tab-risk">Risk Scoring Engine</button>
+            <button class="tab-link" data-tab="tab-vest">Wearable Vest</button>
+            <button class="tab-link" data-tab="tab-vault">Health Data Vault</button>
+          </div>
+
+          <div id="tab-ai" class="tab-content active">
+            <h4>The Brain of the System</h4>
+            <p>The AI core is the intelligence engine that interprets human health through data. It is not a single model, but a layered ecosystem of AI systems working together.</p>
+            
+            <h5>a. Data Inputs</h5>
+            <p>The AI consumes multiple data sources: Structured medical data, Unstructured data (notes, OCR), Biometric signals (EEG, ECG, etc.), Lifestyle data, and Emotional data.</p>
+            
+            <h5>b. Preprocessing and Standardization</h5>
+            <p>Medical data is messy. Jeevanshaili’s system converts all inputs into a unified data format (SNOMED, LOINC, ICD-10), allowing AI to analyze across hospitals and build a national-scale model.</p>
+            
+            <h5>c. Intelligence Layers</h5>
+            <ul class="styled-list">
+              <li><strong>Perception Layer:</strong> Identifies what’s happening (analyzing signals, decoding reports).</li>
+              <li><strong>Interpretation Layer:</strong> Understands why it's happening (connecting cause, symptom, and emotion).</li>
+              <li><strong>Action Layer:</strong> Suggests or initiates responses (alerts, summaries, regulation signals).</li>
+            </ul>
+          </div>
+
+          <div id="tab-risk" class="tab-content">
+            <h4>Predicting Health Before Crisis</h4>
+            <p>One of our most critical components. It is a predictive AI system that evaluates the likelihood of diseases based on an individual’s current and historical data.</p>
+            
+            <h5>a. The Concept</h5>
+            <blockquote>“Based on your blood markers, sleep patterns, and stress signals, your risk of developing hypertension in the next 6 months is 68%.”</blockquote>
+            <p>That’s what the Risk Engine does — it transforms fragmented data into quantified foresight.</p>
+
+            <h5>b. How It Works</h5>
+            <ul class="styled-list">
+              <li><strong>Input Layer:</strong> Lab results, wearable signals, and lifestyle/demographic data.</li>
+              <li><strong>Feature Extraction:</strong> AI extracts key biomarkers and time-series trends (e.g., declining HRV + rising stress patterns).</li>
+              <li><strong>Prediction Models:</strong> ML models (gradient boosting, transformers) predict probability of specific outcomes (diabetes, cardiac risk, etc.).</li>
+              <li><strong>Risk Score Output:</strong> A normalized value (0–100) or index (Low, Moderate, High) to trigger early warnings.</li>
+            </ul>
+          </div>
+
+          <div id="tab-vest" class="tab-content">
+            <h4>Wearable Intelligence — The Jeevanshaili Vest</h4>
+            <p>The physical layer of emotional computing — where health monitoring becomes health regulation. It acts like a second nervous system, sensing and responding in real time.</p>
+
+            <h5>a. Biosensing Capabilities</h5>
+            <p>The vest integrates: EEG (brainwaves), ECG (heart rhythm), GSR (skin conductivity), Thermal sensors, and EMG (muscle tension).</p>
+
+            <h5>b. Emotion Regulation Mechanisms</h5>
+            <p>When abnormal emotional activity is detected, the vest can respond through: Microcurrent stimulation, Vibro-tactile feedback, Thermo-feedback, and Guided biofeedback signals.</p>
+
+            <h5>d. Data Transmission and Privacy</h5>
+            <p>All captured data is locally encrypted. Only anonymized or aggregated insights are shared. The user’s data never leaves their control.</p>
+          </div>
+
+          <div id="tab-vault" class="tab-content">
+            <h4>The Personal Health Cloud</h4>
+            <p>A secure digital repository where users store and manage their medical and emotional data. It is the personal control center of their health identity.</p>
+            <ul class="styled-list">
+              <li>Users can upload medical reports, prescriptions, or wearable data.</li>
+              <li>The AI instantly summarizes reports, identifies critical readings, and connects them to previous history.</li>
+              <li>The vault evolves into a dynamic health timeline, visualizing progress and AI insights.</li>
+              <li>All data is encrypted and accessible only through user authentication.</li>
+              <li>Allows controlled data sharing with doctors, hospitals, or family members.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="details" class="content-section">
+      <div class="section-container">
+        <h2 class="section-title">Deep Dive</h2>
+        <div class="accordion-container">
+          
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>The Emotional Intelligence Layer</span>
+              <svg class="icon-plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="accordion-content">
+              <p>This layer distinguishes Jeevanshaili. It connects emotions, physiology, and AI prediction. The system learns how each person’s emotional state affects their health (e.g., Emotional stress → Elevated heart rate → Poor sleep → Reduced immunity).</p>
+              <p>By recognizing this chain, Jeevanshaili can intervene early. Over time, the AI builds an emotional map — a personalized model of how one’s mind and body interact, helping people live with more balance.</p>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>The Research Foundation — Bioelectric Medicine</span>
+              <svg class="icon-plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="accordion-content">
+              <p>Our foundation lies in bioelectric medicine. Human cells, the brain, heart, and immune system rely on electrical impulses. When these signals become disordered, disease follows. By reading and modulating these signals, we can guide the body toward healing.</p>
+              <p>Our research extends to biomimetic inspiration (e.g., electric eels) to design low-energy, self-sustaining wearables. The long-term goal is to make these devices battery-independent, using bioelectrogenic energy harvested from human physiology.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>Data Ethics, Privacy, and Trust Framework</span>
+              <svg class="icon-plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="accordion-content">
+              <p>Data is sacred. We treat every bit of health data as part of a person’s identity, not a resource. Our framework includes:</p>
+              <ul class="styled-list">
+                <li>End-to-end encryption for all data streams.</li>
+                <li>Federated learning to train AI models without moving raw data.</li>
+                <li>Transparent data usage logs that users can review anytime.</li>
+                <li>Explainable AI — every AI decision is accompanied by human-readable reasoning.</li>
+              </ul>
+              <p>The system is designed for public trust. Hospitals can integrate securely without fear of data leaks.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>The Long-Term Vision</span>
+              <svg class="icon-plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="accordion-content">
+              <p>The ecosystem will evolve in three stages:</p>
+              <ol>
+                <li><strong>Phase 1: Digital Intelligence</strong><br>Launch AI-based report summarization, health vault, and risk scoring.</li>
+                <li><strong>Phase 2: Emotional Computing</strong><br>Integrate wearable vest technology for emotion monitoring and regulation.</li>
+                <li><strong>Phase 3: The National Health Intelligence Grid</strong><br>Build India’s largest AI-driven health data center to power nationwide disease prediction and personalized medicine.</li>
+              </ol>
+              <p><strong>The ultimate goal:</strong> To make India the global leader in AI-powered emotional and physical healthcare.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>Collaboration and Ecosystem</span>
+              <svg class="icon-plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="accordion-content">
+              <p>Jeevanshaili is an ecosystem. We will collaborate with: Hospitals and clinics, AI researchers, Biomedical engineers, Policy makers, and Educational institutions.</p>
+              <p>Every collaborator contributes to a single mission: To make health proactive, emotional, and universally intelligent.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="section-container footer-grid">
+      <div class="footer-about">
+        <h4>Jeevanshaili</h4>
+        <p>Making healthcare predictive, personalized, and emotionally intelligent. © 2025 All Rights Reserved.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#philosophy">Our Vision</a></li>
+          <li><a href="#technology">Technology</a></li>
+          <li><a href="#details">Research</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" target="_blank" aria-label="LinkedIn" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="#" target="_blank" aria-label="Instagram" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div id="hospitalModal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close-btn">&times;</button>
+      <h2>For Hospitals: Get Early Access</h2>
+      <p>Join our early access program to bring predictive, AI-driven healthcare to your institution.</p>
+      <form action="#" method="post" class="contact-form">
+        <div class="form-group-grid">
+          <div class="form-group"><label for="hospital-name">Hospital / Organization Name</label><input type="text" id="hospital-name" name="hospital-name" required></div>
+          <div class="form-group"><label for="contact-person">Contact Person Full Name</label><input type="text" id="contact-person" name="contact-person" required></div>
+          <div class="form-group"><label for="contact-title">Contact Person Title/Role</label><input type="text" id="contact-title" name="contact-title" required></div>
+          <div class="form-group"><label for="hospital-email">Official Email Address</label><input type="email" id="hospital-email" name="hospital-email" required></div>
+          <div class="form-group"><label for="hospital-phone">Phone Number</label><input type="tel" id="hospital-phone" name="hospital-phone" required></div>
+          <div class="form-group"><label for="institution-type">Type of Institution</label><select id="institution-type" name="institution-type" required><option value="" disabled selected>Select type...</option><option value="private-hospital">Private Hospital</option><option value="public-hospital">Public/Government Hospital</option><option value="research-clinic">Research Clinic</option><option value="diagnostic-lab">Diagnostic Lab</option><option value="other">Other</option></select></div>
+          <div class="form-group"><label for="hospital-size">Number of Beds</label><select id="hospital-size" name="hospital-size"><option value="" disabled selected>Select size...</option><option value="1-50">1-50</option><option value="51-200">51-200</option><option value="201-500">201-500</option><option value="500+">500+</option></select></div>
+          <div class="form-group"><label for="current-emr">Current EMR / HIS System (if any)</label><input type="text" id="current-emr" name="current-emr"></div>
+        </div>
+        <div class="form-group full-width"><label for="hospital-address">Full Address</label><textarea id="hospital-address" name="hospital-address" rows="3"></textarea></div>
+        <div class="form-group full-width"><label>Primary Interest (Select all that apply)</label><div class="checkbox-group"><label class="checkbox-label"><input type="checkbox" name="interest" value="ai-diagnostics"> AI Diagnostics</label><label class="checkbox-label"><input type="checkbox" name="interest" value="patient-monitoring-vest"> Patient Monitoring (Vest)</label><label class="checkbox-label"><input type="checkbox" name="interest" value="data-architecture"> Data Architecture</label><label class="checkbox-label"><input type="checkbox" name="interest" value="emotion-research"> Emotional Computing Research</label></div></div>
+        <input type="submit" value="Request Early Access" class="submit-button">
+      </form>
+    </div>
+  </div>
+
+  <div id="joinModal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close-btn">&times;</button>
+      <h2>Join the Jeevanshaili Initiative</h2>
+      <p>We welcome visionaries, researchers, and investors who believe in redefining health.</p>
+      <form action="#" method="post" class="contact-form">
+        <div class="form-group-grid">
+          <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name" required></div>
+          <div class="form-group"><label for="organization">Organization / Institution</label><input type="text" id="organization" name="organization"></div>
+          <div class="form-group"><label for="role">Your Role</label><select id="role" name="role" required><option value="" disabled selected>Select your role...</option><option value="investor">Investor</option><option value="developer">Developer / Engineer</option><option value="researcher">Researcher / Scientist</option><option value="clinician">Clinician / Doctor</option><option value="administrator">Healthcare Administrator</option><option value="student">Student</option><option value="other">Other</option></select></div>
+          <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" required></div>
+        </div>
+        <div class="form-group full-width"><label for="message">Message or Proposal</label><textarea id="message" name="message" rows="6"></textarea></div>
+        <input type="submit" value="Submit Application" class="submit-button">
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
