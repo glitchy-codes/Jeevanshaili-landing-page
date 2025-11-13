@@ -155,7 +155,6 @@ blockquote {
   color: var(--color-text-primary);
 }
 .nav-logo {
-  width: 36px;
   height: 36px;
   /* Fix for white bg logo */
   border-radius: var(--radius-sm);
